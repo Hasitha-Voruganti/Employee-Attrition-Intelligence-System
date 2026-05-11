@@ -51,13 +51,13 @@
 ## 📸 Screenshots
 
 ### Model Comparison — Radar Chart & Metrics
-![Model Comparison](screenshots/model-comparison.png)
+![Model Comparison](screenshots/model_comparison.png)
 
 ### Predict Attrition — Risk Gauge & SHAP Waterfall
 ![Prediction](screenshots/prediction.png)
 
 ### EDA Analytics
-![EDA Analytics](screenshots/eda-analytics.png)
+![EDA Analytics](screenshots/eda_analytics.png)
 
 ### SHAP Explainability
 ![Explainability](screenshots/explainability.png)
@@ -394,10 +394,10 @@ With 16% minority class, a random split could give 10% attrition in test and 18%
 
 ## 📄 License
 
-MIT © 2025 — Built as an ML engineering portfolio project.
+MIT © 2026 — Built as an ML engineering portfolio project.
 
 ---
 
 ## 🙏 Dataset Credit
 
-IBM HR Analytics Employee Attrition & Performance — fictional dataset created by IBM data scientists, published on [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
+IBM HR Analytics Employee Attrition & Performance — published on [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset).
