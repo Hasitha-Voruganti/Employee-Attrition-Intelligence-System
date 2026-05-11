@@ -50,10 +50,10 @@
 
 ## 📸 Screenshots
 
-### Model Comparison — Radar Chart & Metrics
+### Model Comparison
 ![Model Comparison](screenshots/model_comparison.png)
 
-### Predict Attrition — Risk Gauge & SHAP Waterfall
+### Predict Attrition
 ![Prediction](screenshots/prediction.png)
 
 ### EDA Analytics
