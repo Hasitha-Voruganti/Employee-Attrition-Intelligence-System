@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-font-smoothing: antialiased; }
+  body { font-family: 'DM Sans', system-ui, sans-serif; background:#f8fafc; color:#1e293b; min-height:100vh; }
+  h1, h2, h3 { font-family: 'DM Serif Display', Georgia, serif; }
+}
+@layer components {
+  .card { background:white; border-radius:0.75rem; border:1px solid #e2e8f0; padding:1.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.06); }
+  .btn-primary { background:#4F6BF5; color:white; padding:0.625rem 1.25rem; border-radius:0.5rem; font-weight:500; font-size:0.875rem; border:none; cursor:pointer; transition:all 0.2s; }
+  .btn-primary:hover { background:#3b52e0; }
+  .btn-secondary { background:white; color:#475569; padding:0.625rem 1.25rem; border-radius:0.5rem; font-weight:500; font-size:0.875rem; border:1px solid #e2e8f0; cursor:pointer; transition:all 0.2s; }
+  .btn-secondary:hover { background:#f1f5f9; }
+  .input-field { width:100%; padding:0.5rem 0.75rem; border-radius:0.5rem; border:1px solid #e2e8f0; font-size:0.875rem; background:white; outline:none; transition:all 0.2s; }
+  .input-field:focus { border-color:#4F6BF5; box-shadow:0 0 0 3px rgba(79,107,245,0.1); }
+  .label { display:block; font-size:0.75rem; font-weight:500; color:#64748b; margin-bottom:0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+}
