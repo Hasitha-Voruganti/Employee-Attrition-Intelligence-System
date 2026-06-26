@@ -1,0 +1,8 @@
+# .gitignore at project root
+
+venv/
+**pycache**/
+\*.pyc
+node_modules/
+dist/
+.env
